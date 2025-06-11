@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>React</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div id="app">
+    <nav>
+      <ul>
+        <li>
+          <img class="title" src="./misc/react3.png" alt="logo react">
+        </li>
+        <li>
+          <router-link to="/" class="title"><h1>REACT.JS</h1></router-link>
+        </li>
+        <li>
+          <router-link to="/" class="routes">Home</router-link>
+        </li>
+        <li>
+          <router-link to="/Whyreact" class="routes">Perche React</router-link>
+        </li>
+        <li>
+          <router-link to="/Json" class="routes">JSON</router-link>
+        </li>
+        <li>
+          <router-link to="/Editpeople" class="routes">Modifica Persone</router-link>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <router-view></router-view>
+    </main>
+    <footer>
+      <h4>Progetto React | 2025</h4>
+      <div>
+        <nav>
+          <ul>
+            <li class="li-titolo">
+              <img src="./misc/arrow_downward_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt=""><span>Contenuto</span>
+            </li>
+            <li>
+              <router-link to="/" class="routes1">Home</router-link>
+            </li>
+            <li>
+              <router-link to="/Whyreact" class="routes1">Perchè React</router-link>
+            </li>
+            <li>
+              <router-link to="/Json" class="routes1">JSON</router-link>
+            </li>
+            <li>
+              <router-link to="/Editpeople" class="routes1">Modifica Persone</router-link>
+            </li>
+          </ul>
+        </nav>
+        <div>
+          <ul>
+            <li class="li-titolo">
+              <img src="./misc/mail_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt=""> <span>Contatti</span>
+            </li>
+            <li>
+              manuel.menghetti@studio.unibo.it
+            </li>
+            <li>
+              fabian.calangiu@studio.unibo.it
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script src="https://unpkg.com/vue-router@4"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

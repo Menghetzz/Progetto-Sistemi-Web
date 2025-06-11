@@ -1,0 +1,413 @@
+[
+  {
+    "Icona": "gran-jagras.png",
+    "Nome": "Gran Jagras",
+    "Classe": "Wyvern Zannuto",
+    "Elementi": "Nessuno",
+    "Debolezza": "Fuoco, Tuono, Ghiaccio",
+    "Habitat": "Foresta Antica",
+    "Descrizione": "Vorace, in grado di ingoiare prede di grosse dimensioni.",
+    "Dimensione": "Piccolo"
+  },
+  {
+    "Icona": "kulu-ya-ku.png",
+    "Nome": "Kulu-Ya-Ku",
+    "Classe": "Wyvern Rapace",
+    "Elementi": "Nessuno",
+    "Debolezza": "Fuoco",
+    "Habitat": "Foresta antica, Guglie selvagge",
+    "Descrizione": "Un nefasto uccello rapace con l'abilità di brandire oggetti con le zampe anteriori.",
+    "Dimensione": "Piccolo"
+  },
+  {
+    "Icona": "pukei-pukei.png",
+    "Nome": "Pukei-Pukei",
+    "Classe": "Wyvern Rapace",
+    "Elementi": "Nessuno",
+    "Debolezza": "Tuono",
+    "Habitat": "Foresta Antica, Terre Selvagge",
+    "Descrizione": "Un Wyvern alato la cui saliva è satura di un potente veleno.",
+    "Dimensione": "Piccolo"
+  },
+  {
+    "Icona": "pukei-pukei-corallino.png",
+    "Nome": "Pukei-Pukei Corallino",
+    "Classe": "Wyvern Rapace",
+    "Elementi": "Acqua",
+    "Debolezza": "Ghiaccio",
+    "Habitat": "Altipiani Corallini",
+    "Descrizione": "Una sottospecie del Pukei Pukei dai colori vibranti. Espelle acqua ad alta pressione dalla coda.",
+    "Dimensione": "Piccolo"
+  },
+  {
+    "Icona": "barroth.png",
+    "Nome": "Barroth",
+    "Classe": "Wyvern Brutale",
+    "Elementi": "Nessuno",
+    "Debolezza": "Fuoco",
+    "Habitat": "Terre Selvagge",
+    "Descrizione": "Docile se non istigato, si nutre principalmente di formiche.",
+    "Dimensione": "Medio"
+  },
+  {
+    "Icona": "jyuratodus.png",
+    "Nome": "Jyuratodus",
+    "Classe": "Wyvern Acquatico",
+    "Elementi": "Acqua",
+    "Debolezza": "Tuono",
+    "Habitat": "Terre Selvagge",
+    "Descrizione": "Un pericoloso predatore acquatico che usa il fango per immobilizzare le prede.",
+    "Dimensione": "Medio"
+  },
+  {
+    "Icona": "tobi-kadachi.png",
+    "Nome": "Tobi-Kadachi",
+    "Classe": "Wyvern Zannuto",
+    "Elementi": "Tuono",
+    "Debolezza": "Acqua",
+    "Habitat": "Foresta Antica",
+    "Descrizione": "Genera grandi quantità di elettricità statica dovuto allo sfregamento della pelliccia sugli alberi.",
+    "Dimensione": "Piccolo"
+  },
+  {
+    "Icona": "tobi-kadachi-vipera.png",
+    "Nome": "Tobi-Kadachi Vipera",
+    "Classe": "Wyvern Zannuto",
+    "Elementi": "Nessuno",
+    "Debolezza": "Tuono, Ghiaccio",
+    "Habitat": "Distese Brinose",
+    "Descrizione": "Sottospecie del Tobi-Kadachi, le zanne affilate trasudano una potente neurotossina paralizzante.",
+    "Dimensione": "Piccolo"
+  },
+  {
+    "Icona": "anjanath.png",
+    "Nome": "Anjanath",
+    "Classe": "Wyvern Brutale",
+    "Elementi": "Fuoco",
+    "Debolezza": "Acqua, Tuono, Ghiaccio",
+    "Habitat": "Foresta Antica, Terre Selvagge",
+    "Descrizione": "Belligerante, attacca senza la minima provocazione. Emette fiamme dai seni nasali.",
+    "Dimensione": "Grande"
+  },
+  {
+    "Icona": "anjanath-tonante.png",
+    "Nome": "Anjanath Tonante",
+    "Classe": "Wyvern Brutale",
+    "Elementi": "Tuono",
+    "Debolezza": "Acqua, Ghiaccio",
+    "Habitat": "Distese Brinose",
+    "Descrizione": "Variante dell'Anjanath dal manto bianco. Scarica elettricità dai seni nasali.",
+    "Dimensione": "Grande"
+  },
+  {
+    "Icona": "rathalos.png",
+    "Nome": "Rathalos",
+    "Classe": "Wyvern Volante",
+    "Elementi": "Fuoco",
+    "Debolezza": "Drago, Tuono",
+    "Habitat": "Foresta Antica, Terre Selvagge",
+    "Descrizione": "Il re dei cieli. Un Wyvern feroce che domina con attacchi aerei e fiammate.",
+    "Dimensione": "Grande"
+  },
+  {
+    "Icona": "rathalos-azzurro.png",
+    "Nome": "Rathalos Azzurro",
+    "Classe": "Wyvern Volante",
+    "Elementi": "Fuoco",
+    "Debolezza": "Drago, Ghiaccio",
+    "Habitat": "Foresta Antica, Landa dei Cristalli",
+    "Descrizione": "Sottospecie del Rathalos. Più rapidi dei suoi simili, si abbattono sulla preda dall'alto.",
+    "Dimensione": "Grande"
+  },
+  {
+    "Icona": "rathalos-argenteo.png",
+    "Nome": "Rathalos Argenteo",
+    "Classe": "Wyvern Volante",
+    "Elementi": "Fuoco",
+    "Debolezza": "Acqua, Tuono",
+    "Habitat": "Landa dei Cristalli",
+    "Descrizione": "Variante del Rathalos, il suo fiato di fuoco infernale è impareggiabile.",
+    "Dimensione": "Grande"
+  },
+  {
+    "Icona": "rathian.png",
+    "Nome": "Rathian",
+    "Classe": "Wyvern Volante",
+    "Elementi": "Fuoco",
+    "Debolezza": "Drago, Tuono",
+    "Habitat": "Foresta Antica, Terre Selvagge",
+    "Descrizione": "Controparte femminile del Rathalos, prevale sulla preda con la sua coda velenosa e potenti zampe.",
+    "Dimensione": "Grande"
+  },
+  {
+    "Icona": "rathian-rosa.png",
+    "Nome": "Rathian Rosa",
+    "Classe": "Wyvern Volante",
+    "Elementi": "Fuoco",
+    "Debolezza": "Drago, Tuono",
+    "Habitat": "Altipiani Corallini",
+    "Descrizione": "Sottospecie di Rathian con una maggiore destrezza nell'uso della coda velenosa.",
+    "Dimensione": "Grande"
+  },
+  {
+    "Icona": "rathian-aurea.png",
+    "Nome": "Rathian Aurea",
+    "Classe": "Wyvern Volante",
+    "Elementi": "Fuoco",
+    "Debolezza": "Tuono, Acqua",
+    "Habitat": "Landa dei Cristalli",
+    "Descrizione": "Rara variante di Rathian, con un devastante fiato di fuoco e un'ampia coda.",
+    "Dimensione": "Grande"
+  },
+  {
+    "Icona": "diablos.png",
+    "Nome": "Diablos",
+    "Classe": "Wyvern Volante",
+    "Elementi": "Nessuno",
+    "Debolezza": "Ghiaccio, Drago, Acqua",
+    "Habitat": "Terre Selvagge",
+    "Descrizione": "Aggressivo e territoriale, il Diablos carica gli invasori con le enormi corna.",
+    "Dimensione": "Grande"
+  },
+  {
+    "Icona": "diablos-nera.png",
+    "Nome": "Diablos Nera",
+    "Classe": "Wyvern Volante",
+    "Elementi": "Nessuno",
+    "Debolezza": "Ghiaccio, Acqua",
+    "Habitat": "Terre Selvagge",
+    "Descrizione": "I Diablos dalla corazza nera sono in realtà le femmine in calore, il cui colore indica una maggiore aggressività.",
+    "Dimensione": "Grande"
+  },
+  {
+    "Icona": "tzitzi-ya-ku.png",
+    "Nome": "Tzitzi-Ya-Ku",
+    "Classe": "Wyvern Rapace",
+    "Elementi": "Nessuno",
+    "Debolezza": "Ghiaccio, Tuono",
+    "Habitat": "Altipiani Corallini",
+    "Descrizione": "Un piccolo Wyvern in grado di stordire prede o predatori con cromatofori accecanti delle membrane sulla testa.",
+    "Dimensione": "Piccolo"
+  },
+  {
+    "Icona": "paolumu.png",
+    "Nome": "Paolumu",
+    "Classe": "Wyvern Volante",
+    "Elementi": "Nessuno",
+    "Debolezza": "Fuoco, Tuono",
+    "Habitat": "Altipiani Corallini",
+    "Descrizione": "Wyvern volanti che si librano in aria grazie alle proprie sacche gonfiabili.",
+    "Dimensione": "Piccolo"
+  },
+  {
+    "Icona": "paolumu-onirico.png",
+    "Nome": "Paolumu Onirico",
+    "Classe": "Wyvern Volante",
+    "Elementi": "Nessuno",
+    "Debolezza": "Acqua, Fuoco",
+    "Habitat": "Foresta Antica, Terre Selvagge",
+    "Descrizione": "Controparte del Paolumu dalla pelliccia scura. Esalano fumi comatosi dalle sacche d'aria.",
+    "Dimensione": "Piccolo"
+  },
+  {
+    "Icona": "legiana.png",
+    "Nome": "Legiana",
+    "Classe": "Wyvern Volante",
+    "Elementi": "Ghiaccio",
+    "Debolezza": "Tuono, Fuoco",
+    "Habitat": "Altipiani Corallini",
+    "Descrizione": "Predatori in cima alla catena alimentare, emettono venti gelidi dal corpo per indebolire le prede.",
+    "Dimensione": "Medio"
+  },
+  {
+    "Icona": "legiana-glaciale.png",
+    "Nome": "Legiana Glaciale",
+    "Classe": "Wyvern Volante",
+    "Elementi": "Ghiaccio",
+    "Debolezza": "Tuono, Fuoco",
+    "Habitat": "Distese Brinose",
+    "Descrizione": "Questa sottospecie di Legiana emette letali venti assideranti sulla preda, per poi abbattersi su di essa dall'alto.",
+    "Dimensione": "Medio"
+  },
+  {
+    "Icona": "gran-girros.png",
+    "Nome": "Gran Girros",
+    "Classe": "Wyvern Zannuto",
+    "Elementi": "Nessuno",
+    "Debolezza": "Fuoco, Ghiaccio, Acqua",
+    "Habitat": "Valle Putrefatta",
+    "Descrizione": "Un predatore minore della Valle Putrefatta, caccia in branco utilizzando un veleno paralizzante.",
+    "Dimensione": "Piccolo"
+  },
+  {
+    "Icona": "radobaan.png",
+    "Nome": "Radobaan",
+    "Classe": "Wyvern Brutale",
+    "Elementi": "Nessuno",
+    "Debolezza": "Drago, Ghiaccio",
+    "Habitat": "Valle Putrefatta",
+    "Descrizione": "Un grosso Wyvern che secerne un liquido colloso per mantenere attaccate le ossa di altri mostri come armatura.",
+    "Dimensione": "Grande"
+  },
+  {
+    "Icona": "odogaron.png",
+    "Nome": "Odogaron",
+    "Classe": "Wyvern Zannuto",
+    "Elementi": "Nessuno",
+    "Debolezza": "Ghiaccio, Tuono",
+    "Habitat": "Valle Putrefatta, Altipiani Corallini",
+    "Descrizione": "Un temibile predatore nativo della Valle Putrefatta, con due file di artigli e lunghe zanne.",
+    "Dimensione": "Medio"
+  },
+  {
+    "Icona": "odogaron-ebano.png",
+    "Nome": "Odogaron d'Ebano",
+    "Classe": "Wyvern Zannuto",
+    "Elementi": "Drago",
+    "Debolezza": "Acqua, Fuoco, Ghiaccio, Tuono",
+    "Habitat": "Altipiani Corallini",
+    "Descrizione": "Variazione dell'Odogaron, adattatosi per utilizzare potenti attacchi drago.",
+    "Dimensione": "Medio"
+  },
+  {
+    "Icona": "zorah-magdaros.png",
+    "Nome": "Zorah Magdaros",
+    "Classe": "Drago Anziano",
+    "Elementi": "Fuoco",
+    "Debolezza": "Drago, Ghiaccio",
+    "Habitat": "???",
+    "Descrizione": "Un gigantesco Drago Anziano il cui guscio pare una montagna.",
+    "Dimensione": "Gigantesco"
+  },
+  {
+    "Icona": "dodogama.png",
+    "Nome": "Dodogama",
+    "Classe": "Wyvern Zannuto",
+    "Elementi": "Fuoco",
+    "Debolezza": "Ghiaccio, Tuono, Acqua",
+    "Habitat": "Landa dei Cristalli",
+    "Descrizione": "Docile, si nutre principalmente di rocce, che fonde in bocca per poi sputarle in difesa.",
+    "Dimensione": "Piccolo"
+  },
+  {
+    "Icona": "uragaan.png",
+    "Nome": "Uragaan",
+    "Classe": "Wyvern Brutale",
+    "Elementi": "Fuoco",
+    "Debolezza": "Ghiaccio, Drago, Acqua",
+    "Habitat": "Landa dei Cristalli",
+    "Descrizione": "Similmente al Radobaan, si ricopre di minerali che usa come corazza.",
+    "Dimensione": "Grande"
+  },
+  {
+    "Icona": "lavasioth.png",
+    "Nome": "Lavasioth",
+    "Classe": "Wyvern Acquatico",
+    "Elementi": "Fuoco",
+    "Debolezza": "Ghiaccio, Tuono, Acqua",
+    "Habitat": "Landa dei Cristalli",
+    "Descrizione": "Wyvern nuotatore che si immerge nel magma per prendere alla sprovvista le prede.",
+    "Dimensione": "Medio"
+  },
+  {
+    "Icona": "teostra.png",
+    "Nome": "Teostra",
+    "Classe": "Drago Anziano",
+    "Elementi": "Fuoco",
+    "Debolezza": "Ghiaccio, Acqua",
+    "Habitat": "Landa dei Cristalli, Terre Selvagge",
+    "Descrizione": "Un potente Drago Anziano il cui manto brucia di un forte calore. Può generare una polvere volatile attorno a sé.",
+    "Dimensione": "Grande"
+  },
+  {
+    "Icona": "lunastra.png",
+    "Nome": "Lunastra",
+    "Classe": "Drago Anziano",
+    "Elementi": "Fuoco",
+    "Debolezza": "Ghiaccio, Drago",
+    "Habitat": "Landa dei Cristalli, Terre Selvagge",
+    "Descrizione": "Controparte femminile di Teostra, le sue distintive scaglie blu emanano un torrido calore.",
+    "Dimensione": "Grande"
+  },
+  {
+    "Icona": "kushala-daora.png",
+    "Nome": "Kushala Daora",
+    "Classe": "Drago Anziano",
+    "Elementi": "Nessuno",
+    "Debolezza": "Drago, Tuono",
+    "Habitat": "Landa dei Cristalli, Foresta Antica",
+    "Descrizione": "Il Signore della Tempesta, genera forti vortici ventosi attorno a sé e sulle prede.",
+    "Dimensione": "Grande"
+  },
+  {
+    "Icona": "vaal-hazak.png",
+    "Nome": "Vaal Hazak",
+    "Classe": "Drago Anziano",
+    "Elementi": "Nessuno",
+    "Debolezza": "Fuoco, Drago",
+    "Habitat": "Valle Putrefatta",
+    "Descrizione": "Vive in fondo alla Valle, sotto numerose carcasse di altri mostri. Sfrutta l'Effluvio per nutrirsi.",
+    "Dimensione": "Grande"
+  },
+  {
+    "Icona": "vaal-hazak-funereo.png",
+    "Nome": "Vaal Hazak Funereo",
+    "Classe": "Drago Anziano",
+    "Elementi": "Nessuno",
+    "Debolezza": "Fuoco, Drago",
+    "Habitat": "Foresta Antica, Valle Putrefatta",
+    "Descrizione": "Un Vaal Hazak adattatosi fuori dalla Valle Putrefatta. Si ricopre di letali spore fungine che usa per difendersi.",
+    "Dimensione": "Grande"
+  },
+  {
+    "Icona": "kirin.png",
+    "Nome": "Kirin",
+    "Classe": "Drago Anziano",
+    "Elementi": "Tuono",
+    "Debolezza": "Fuoco, Ghiaccio, Acqua",
+    "Habitat": "Altipiani Corallini",
+    "Descrizione": "Un raro Drago Anziano, sempre seguito da potenti tuoni e tempeste.",
+    "Dimensione": "Piccolo"
+  },
+  {
+    "Icona": "nergigante.png",
+    "Nome": "Nergigante",
+    "Classe": "Drago Anziano",
+    "Elementi": "Nessuno",
+    "Debolezza": "Tuono, Drago",
+    "Habitat": "Landa dei Cristalli",
+    "Descrizione": "Un portatore di distruzione, caccia esclusivamente altri Draghi Anziani per nutrirsi della loro bioenergia.",
+    "Dimensione": "Grande"
+  },
+  {
+    "Icona": "nergigante-razziatore.png",
+    "Nome": "Nergigante Razziatore",
+    "Classe": "Drago Anziano",
+    "Elementi": "Nessuno",
+    "Debolezza": "Tuono, Drago",
+    "Habitat": "Terre Guida",
+    "Descrizione": "Un Nergigante temprato da numerose battaglie, le sue scaglie annerite e affilate ne sono testimoni.",
+    "Dimensione": "Grande"
+  },
+  {
+    "Icona": "deviljho.png",
+    "Nome": "Deviljho",
+    "Classe": "Wyvern Brutale",
+    "Elementi": "Drago",
+    "Debolezza": "Tuono, Drago, Acqua, Fuoco",
+    "Habitat": "Qualsiasi bioma",
+    "Descrizione": "Un famelico predatore, il suo fiato draconico gli consente di tener testa ai Draghi Anziani.",
+    "Dimensione": "Grande"
+  },
+  {
+    "Icona": "deviljho-selvaggio.png",
+    "Nome": "Deviljho Selvaggio",
+    "Classe": "Wyvern Brutale",
+    "Elementi": "Drago",
+    "Debolezza": "Tuono, Drago, Acqua, Fuoco",
+    "Habitat": "Qualsiasi bioma",
+    "Descrizione": "Variante mutata del temibile Deviljho. Si specula nasca quando un membro della specie ne cannibalizza un altro.",
+    "Dimensione": "Grande"
+  }
+]
+

@@ -1,0 +1,1066 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+body {
+  background-color: #3d6a76;
+  color: white;
+  font-size: 16px;
+  font-family: 'Courier New', sans-serif;
+  height: fit-content;
+}
+
+main {
+  padding-bottom: 60px;
+}
+
+/* nav */
+nav h1 {
+  font-size: 24px;
+}
+
+body>div>nav {
+  background-color: #23272f;
+  color: white;
+  width: 100%;
+  height: 100px;
+  font-size: 20px;
+}
+
+.title {
+  font-size: 24px;
+}
+
+body>div>nav ul {
+  display: flex;
+  align-items: center;
+  text-indent: 0;
+  padding-inline-start: 0;
+  padding-right: 20px;
+  padding-left: 20px;
+  height: 100%;
+}
+
+body>div>nav ul li:nth-child(1),
+body>div>nav ul li:nth-child(2) {
+  margin-right: auto;
+  cursor: pointer;
+}
+
+body>div>nav ul li:nth-child(1) {
+  margin-right: 20px;
+}
+
+body>div>nav ul li:nth-child(6) {
+  margin-right: 30px;
+}
+
+body>div>nav ul li:nth-child(3),
+body>div>nav ul li:nth-child(4),
+body>div>nav ul li:nth-child(5),
+body>div>nav ul li:nth-child(6) {
+  margin-left: 30px;
+  cursor: pointer;
+  color: #58c3db;
+  text-align: center;
+  padding: 5px;
+}
+
+.routes:visited,
+.routes1:visited,
+.title:visited {
+  color: inherit;
+}
+
+.routes:link {
+  color: #58c3db;
+}
+
+.title:link,
+.routes1:link {
+  color: #ffffff;
+}
+
+.routes:hover {
+  border-bottom: solid #ffffff;
+  color: #ffffff;
+}
+
+.routes1:hover {
+  color: #ffffff;
+}
+
+body>div>nav ul li img {
+  width: 60px;
+  display: block;
+}
+
+li {
+  list-style-type: none;
+}
+
+.router-link-active {
+  color: white !important;
+  font-weight: bold;
+}
+
+/* Home */
+#home {
+  min-height: 100vh;
+  height: fit-content;
+  display: flex;
+}
+
+.asidehome {
+  height: 80%;
+  background-color: #23272f;
+  width: 250px;
+  margin: 40px;
+  border-radius: 15px;
+  position: sticky;
+  top: 90px;
+  padding: 10px;
+}
+
+.asidehome h2 {
+  margin-top: 10px;
+}
+
+.asidehome>ul {
+  padding: 0;
+}
+
+.asideBar {
+  padding: 8px 0;
+  color: #ffffff;
+  margin-top: 5px auto;
+  width: auto;
+}
+
+.asideBar a:link,
+.asideBar a:visited,
+.asideBar a:hover {
+  color: #ffffff;
+}
+
+.asideBar a {
+  color: white;
+  text-decoration: none;
+}
+
+.asideBar a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: fit-content;
+  width: 70%;
+  margin: 40px;
+}
+
+.content>section {
+  background-color: #23272f;
+  width: 90%;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  padding: 10px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  height: fit-content;
+}
+
+.content>section>p {
+  text-align: left;
+  margin: 0px 20px 0;
+  padding-bottom: 30px;
+}
+
+#imageDiv {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 20px
+}
+
+.content>section img {
+  max-width: 60%;
+  margin: 15px 0;
+}
+
+.content h2 {
+  margin-top: 10px;
+}
+
+.homelist li {
+  list-style-type: disc;
+  margin-bottom: 20px;
+}
+
+.content section h3 {
+  padding-bottom: 10px;
+  margin: 0 20px 0;
+}
+
+.asidehome .asideBar:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  padding-left: 10px;
+}
+
+/* Why React */
+#whyreact {
+  min-height: 100vh;
+  height: fit-content;
+}
+
+#whyreact>div {
+  display: flex;
+}
+
+#whyreact>div>section {
+  background-color: #23272f;
+  margin: 40px auto;
+  width: 40%;
+  height: fit-content;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+#whyreact>div:nth-child(2)>section {
+  width: 90%;
+  margin: auto;
+}
+
+#whyreact>div:nth-child(2)>section p {
+  text-align: left;
+}
+
+#whyreact>div>section>h2 {
+  width: 80%;
+}
+
+#whyreact>div>section>ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+#whyreact img {
+  width: 100%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+
+.buttons>button {
+  margin-top: 10px;
+  width: 20%;
+  height: 9px;
+}
+
+.buttons button:hover {
+  background-color: #6aaab9;
+  border: 0;
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+.selected {
+  background-color: #6aaab9;
+  border: 0;
+}
+
+#whyreact ul {
+  display: flex;
+  justify-content: center;
+}
+
+#whyreact ul li {
+  width: 30%;
+  margin: 0 10px;
+  text-align: center;
+}
+
+#whyreact p {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Body della pagina JSON */
+table {
+  color: white;
+  width: 70%;
+  margin: 30px auto;
+  background-color: #23272f;
+  border-collapse: collapse;
+}
+
+caption {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  padding: 10px;
+}
+
+table th {
+  border: solid 2px lightgray;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 5px;
+  text-align: center;
+}
+
+table td {
+  border: solid 2px lightgray;
+  font-family: Helvetica;
+  padding: 5px;
+  text-align: center;
+}
+
+table img {
+  width: 80px;
+  height: 80px;
+}
+
+/* Body della pagina Editpeople */
+.container {
+  display: flex;
+  height: fit-content;
+}
+
+.peoplelist {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #23272f;
+  margin-left: 10%;
+  border-radius: 15px;
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  min-width: 30%;
+}
+
+.peoplelist>ul {
+  text-align: left;
+  padding-right: 20px;
+  width: fit-content;
+}
+
+.peoplelist>ul>li {
+  padding: 8px 0;
+  color: #ffffff;
+  margin-top: 5px;
+  width: fit-content;
+}
+
+.peoplelist>h2 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #58c3db;
+  border-bottom: #58c3db solid 2px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #58c3db;
+  text-align: center;
+  border-bottom: #58c3db solid 2px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+select {
+  border-radius: 10px;
+  border-color: white;
+  height: 30px;
+  width: 100%;
+  margin: 8px
+}
+
+input {
+  border-radius: 10px;
+  border-color: white;
+  height: 30px;
+  width: 100%;
+  margin: 8px;
+}
+
+input:hover,
+select:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+form>div {
+  padding-top: 20px;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+}
+
+label {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.add {
+  margin-top: 6px;
+  margin-bottom: 40px;
+  padding: 30px;
+  background-color: #23272f;
+  border-radius: 15px;
+  width: 100%;
+  height: fit-content;
+  align-items: right;
+}
+
+.edit {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  padding: 30px;
+  background-color: #23272f;
+  border-radius: 15px;
+  width: 100%;
+  height: fit-content;
+}
+
+.modify {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: fit-content;
+  margin: auto;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.buttonedit {
+  background-color: red;
+  color: white;
+  width: 150px;
+  height: 30px;
+  border: #550202 2px solid;
+}
+
+.buttonedit:hover {
+  transform: scale(1.2);
+  transition: 2s;
+}
+
+.buttonadd {
+  background-color: #17d917;
+  color: white;
+  width: 150px;
+  height: 30px;
+  border: #0c4002 2px solid;
+}
+
+.buttonadd:hover {
+  transform: scale(1.2);
+  transition: 2s;
+}
+
+
+/* footer */
+footer {
+  background-color: #23272f;
+  color: white;
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+footer>h4 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.li-titolo {
+  font-size: 16px;
+  border-bottom: solid white 2px;
+}
+
+footer li {
+  padding-top: 10px;
+}
+
+.routes1 {
+  padding-left: 10px;
+}
+
+footer>nav {
+  text-align: left;
+}
+
+footer>div {
+  display: flex;
+  justify-content: center;
+}
+
+footer li {
+  display: flex;
+}
+
+span {
+  padding-top: 3px;
+  padding-left: 5px;
+}
+
+.routes,
+.routes1,
+.title {
+  text-decoration: none;
+}
+
+.important {
+  color: #58c3db;
+  font-weight: bold;
+  font-size: 17px;
+  font-style: italic;
+}
+
+/*mediaquery */
+@media screen and (max-width: 640px) {
+  body {
+    font-size: 14px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  body>div>nav {
+    height: 80px;
+    font-size: 18px;
+  }
+
+  body>div>nav ul {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  body>div>nav ul li:nth-child(1) {
+    margin-right: 10px;
+  }
+
+  body>div>nav ul li:nth-child(3),
+  body>div>nav ul li:nth-child(4),
+  body>div>nav ul li:nth-child(5),
+  body>div>nav ul li:nth-child(6) {
+    margin-left: 10px;
+  }
+
+  body>div>nav ul li img {
+    width: 40px;
+  }
+
+  .asidehome {
+    width: 200px;
+    margin: 20px;
+  }
+
+  .content {
+    margin: 20px 10px;
+    width: 80%;
+  }
+
+  .content>section {
+    padding: 8px;
+  }
+
+  .content>section>p {
+    margin: 0px 10px 0;
+  }
+
+  #whyreact>div>section {
+    width: 95%;
+    margin: 20px auto;
+    padding: 15px;
+  }
+
+  .peoplelist {
+    margin-left: 5%;
+    margin-top: 30px;
+    min-width: 90%;
+  }
+
+  .modify {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  table {
+    width: 95%;
+    font-size: 10px;
+  }
+
+  tbody,
+  thead {
+    width: 500px;
+  }
+
+  table th,
+  table td {
+    padding: 1px;
+  }
+
+  table img {
+    width: 50px;
+    height: 50px;
+  }
+
+  input,
+  select {
+    margin: 5px;
+  }
+
+  .buttonadd,
+  .buttonedit {
+    width: 120px;
+    height: 35px;
+  }
+
+  .container {
+    flex-direction: column-reverse;
+  }
+
+  #whyreact>div:first-child {
+    flex-direction: column;
+  }
+
+  footer ul {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 474px) {
+  body {
+    font-size: 14px;
+  }
+
+  .asidehome {
+    display: none;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  body>div>nav {
+    height: 80px;
+    font-size: 18px;
+  }
+
+  body>div>nav ul {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  body>div>nav ul li:nth-child(1) {
+    margin-right: 10px;
+  }
+
+  body>div>nav ul li:nth-child(3),
+  body>div>nav ul li:nth-child(4),
+  body>div>nav ul li:nth-child(5),
+  body>div>nav ul li:nth-child(6) {
+    margin-left: 10px;
+  }
+
+  body>div>nav ul li:nth-child(3) a,
+  body>div>nav ul li:nth-child(4) a,
+  body>div>nav ul li:nth-child(5) a,
+  body>div>nav ul li:nth-child(6) a {
+    font-size: 15px;
+  }
+
+  body>div>nav ul li img {
+    width: 40px;
+  }
+
+  #home {
+    margin: auto
+  }
+
+  .content {
+    margin: 20px 10px;
+    width: 100%;
+  }
+
+  .content>section {
+    padding: 8px;
+  }
+
+  .content>section>p {
+    margin: 0px 10px 0;
+  }
+
+  #whyreact>div>section {
+    width: 95%;
+    margin: 20px auto;
+    padding: 15px;
+  }
+
+  #whyreact>div:nth-child(2) ul {
+    flex-direction: column;
+  }
+
+  #whyreact>div:nth-child(2) ul li {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .peoplelist {
+    margin-left: 5%;
+    margin-top: 30px;
+    min-width: 90%;
+  }
+
+  .modify {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  table {
+    width: 95%;
+    font-size: 10px;
+  }
+
+  tbody,
+  thead {
+    width: 500px;
+  }
+
+  table th,
+  table td {
+    padding: 1px;
+  }
+
+  table img {
+    width: 50px;
+    height: 50px;
+  }
+
+  input,
+  select {
+    margin: 5px;
+  }
+
+  .buttonadd,
+  .buttonedit {
+    width: 120px;
+    height: 35px;
+  }
+
+  .container {
+    flex-direction: column-reverse;
+  }
+
+  #whyreact>div:first-child {
+    flex-direction: column;
+  }
+
+  footer div {
+    width: 100%;
+  }
+
+  footer ul {
+    padding: 10px;
+  }
+
+  footer li {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 434px) {
+  body {
+    font-size: 14px;
+  }
+
+  .asidehome {
+    display: none;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  body>div>nav {
+    height: 80px;
+    font-size: 18px;
+  }
+
+  body>div>nav ul {
+    padding-right: 10px;
+    padding-left: 5px;
+  }
+
+  body>div>nav ul li:nth-child(1) {
+    margin-right: 5px;
+  }
+
+  body>div>nav ul li:nth-child(3),
+  body>div>nav ul li:nth-child(4),
+  body>div>nav ul li:nth-child(5),
+  body>div>nav ul li:nth-child(6) {
+    margin-left: 10px;
+  }
+
+  body>div>nav ul li:nth-child(2) a {
+    font-size: 17px;
+  }
+
+  body>div>nav ul li:nth-child(3) a,
+  body>div>nav ul li:nth-child(4) a,
+  body>div>nav ul li:nth-child(5) a,
+  body>div>nav ul li:nth-child(6) a {
+    font-size: 12px;
+  }
+
+  body>div>nav ul li img {
+    width: 30px;
+  }
+
+  #home {
+    margin: auto
+  }
+
+  .content {
+    margin: 20px 10px;
+    width: 100%;
+  }
+
+  .content>section {
+    padding: 8px;
+  }
+
+  .content>section>p {
+    margin: 0px 10px 0;
+  }
+
+  #whyreact>div>section {
+    width: 95%;
+    margin: 20px auto;
+    padding: 15px;
+  }
+
+  #whyreact>div:nth-child(2) ul {
+    flex-direction: column;
+  }
+
+  #whyreact>div:nth-child(2) ul li {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .peoplelist {
+    margin-left: 5%;
+    margin-top: 30px;
+    min-width: 90%;
+  }
+
+  .modify {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  table {
+    width: 95%;
+    font-size: 8px;
+  }
+
+  table th,
+  table td {
+    padding: 1px;
+  }
+
+  table img {
+    width: 40px;
+    height: 40px;
+  }
+
+  input,
+  select {
+    margin: 5px;
+  }
+
+  .buttonadd,
+  .buttonedit {
+    width: 120px;
+    height: 35px;
+  }
+
+  .container {
+    flex-direction: column-reverse;
+  }
+
+  #whyreact>div:first-child {
+    flex-direction: column;
+  }
+
+  footer ul {
+    padding: 10px;
+  }
+
+  footer li {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  body {
+    font-size: 14px;
+  }
+
+  nav h1 {
+    padding-top: 20px;
+    font-size: 19px;
+  }
+
+  .asidehome {
+    display: none;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  body>div>nav {
+    height: 60px;
+    font-size: 18px;
+  }
+
+  body>div>nav ul {
+    padding-right: 6px;
+    padding-left: 3px;
+  }
+
+  body>div>nav ul li:nth-child(1) {
+    margin-right: 5px;
+  }
+
+  body>div>nav ul li:nth-child(3),
+  body>div>nav ul li:nth-child(4),
+  body>div>nav ul li:nth-child(5),
+  body>div>nav ul li:nth-child(6) {
+    margin-left: 3px;
+  }
+
+  body>div>nav ul li:nth-child(2) a {
+    font-size: 15px;
+    margin-right: 9px;
+  }
+
+  body>div>nav ul li:nth-child(3) a,
+  body>div>nav ul li:nth-child(4) a,
+  body>div>nav ul li:nth-child(5) a,
+  body>div>nav ul li:nth-child(6) a {
+    font-size: 11px;
+  }
+
+  body>div>nav ul li img {
+    width: 22px;
+  }
+
+  #home {
+    margin: auto
+  }
+
+  .content {
+    margin: 20px 10px;
+    width: 100%;
+  }
+
+  .content>section {
+    padding: 8px;
+  }
+
+  .content>section>p {
+    margin: 0px 10px 0;
+  }
+
+  #whyreact>div>section {
+    width: 95%;
+    margin: 20px auto;
+    padding: 15px;
+  }
+
+  #whyreact>div:nth-child(2) ul {
+    flex-direction: column;
+  }
+
+  #whyreact>div:nth-child(2) ul li {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .peoplelist {
+    margin-left: 5%;
+    margin-top: 30px;
+    min-width: 90%;
+  }
+
+  .modify {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  table {
+    width: 95%;
+    font-size: 6px;
+  }
+
+  table img {
+    width: 30px;
+    height: 30px;
+  }
+
+  input,
+  select {
+    margin: 5px;
+  }
+
+  .buttonadd,
+  .buttonedit {
+    width: 120px;
+    height: 35px;
+  }
+
+  .container {
+    flex-direction: column-reverse;
+  }
+
+  #whyreact>div:first-child {
+    flex-direction: column;
+  }
+
+  footer ul {
+    padding: 5px;
+  }
+
+  footer li {
+    font-size: 9px;
+  }
+}
