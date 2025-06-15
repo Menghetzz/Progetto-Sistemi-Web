@@ -106,7 +106,7 @@ const Whyreact = {
             immagineVue: "",
             paragrafi: [
                 "Dichiarazione di un'applicazione (componente) in React:",
-                "Dichiarazione di un router in React:",
+                "Dichiarazione di un root in React:",
                 "Uso degli stati con React:",
                 "Dichiarazione di un'applicazione in Vue:",
                 "Dichiarazione di un router in Vue:",
